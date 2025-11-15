@@ -23,7 +23,6 @@ logger = logging.getLogger(__name__)
 import os
 
 token = os.environ.get("TOKEN")
-print(token)
 
 bot = Bot(token)
 dp = Dispatcher()
